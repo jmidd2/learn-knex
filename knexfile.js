@@ -3,7 +3,18 @@
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
  */
-export default {
+const config = {
   client: 'pg',
-  connection: 'postgres//learn-user:allthesecrets@localhost/learn-db',
+  migrations: {
+    directory: './migrations',
+  },
+  connection: {
+    host: 'localhost',
+    port: 5432,
+    user: 'learn-user',
+    password: 'allthesecrets',
+    database: 'learn-db',
+  },
 };
+
+export default config;

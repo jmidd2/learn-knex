@@ -6,7 +6,6 @@
         <option name="TAB_SIZE" value="2" />
       </value>
     </option>
-    <option name="LINE_SEPARATOR" value="&#10;" />
     <HTMLCodeStyleSettings>
       <option name="HTML_UNIFORM_INDENT" value="true" />
       <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
@@ -14,7 +13,7 @@
     </HTMLCodeStyleSettings>
     <JSCodeStyleSettings version="0">
       <option name="FORCE_SEMICOLON_STYLE" value="true" />
-      <option name="USE_DOUBLE_QUOTES" value="false" />
+      <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
       <option name="FORCE_QUOTE_STYlE" value="true" />
       <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
       <option name="VAR_DECLARATION_WRAP" value="2" />
