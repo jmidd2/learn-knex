@@ -40,6 +40,7 @@
       "error",
       "unix"
     ],
+    "operator-linebreak": "off",
     "quotes": [
       "error",
       "single"
