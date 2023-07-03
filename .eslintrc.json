@@ -20,7 +20,6 @@
     "prettier",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:jest/recommended",
     "airbnb"
   ],
   "parserOptions": {
@@ -28,6 +27,11 @@
     "sourceType": "module"
   },
   "rules": {
+    "import/extensions": ["error", {
+      "js": "always"
+    }],
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "warn",
     "indent": [
       "error",
       2

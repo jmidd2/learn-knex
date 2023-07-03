@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon src/server.js"
   },
   "author": "Jon M",
   "license": "ISC",
@@ -17,6 +17,13 @@
   "type": "module",
   "devDependencies": {
     "eslint": "^8.43.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "^2.0.22",
     "prettier": "^2.8.8"
+  },
+  "nodemonConfig": {
+    "watch": ["src"]
   }
 }
